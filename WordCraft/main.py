@@ -5,8 +5,6 @@ Welcome to WordCraft 🧩!!
 --> The player will be prompted with random number of characters (minimum of 6 characters).
 --> Using those characters the player has to make as many word possible of minimum leght 3.
 --> If the player cannot form anymore words they can exit using the "exit()" command.
---> They will get back a their score and if their name is added to top-10.
---> If player in top-10, top-10 will be outputted.
 
 This game is property of AtomicBastoid aka Eishal Keshwani.
 """
@@ -54,7 +52,7 @@ def main():
 
     if score >= 10:
         confetti.confetti()
-
+        
     print("\n" + Style.BRIGHT + Fore.MAGENTA + f"Your Score is: {score}")
 
 
